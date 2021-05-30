@@ -16,14 +16,15 @@ public class SampleTest extends Base {
         Assert.assertEquals(getMemberValueAsString(addPlaceResult,"scope"),"APP","Add Place is failed");
         Assert.assertEquals(getMemberValueAsString(addPlaceResult,"status"),"OK","Add Place is failed");
         Assert.assertEquals(addPlaceResult.statusCode(),200,"Add operation is failed");
+//        System.out.println(addPlaceResult.asString());
     }
-    @Test(priority = 1)
+    @Test
     public void verifyGetPlaceAPI(){
         Response getPlaceResult = responseFactory.getPlace(placeID);
         Assert.assertEquals(getPlaceResult.statusCode(),200,"get operation is failed");
      //   System.out.print(getPlaceResult.asString());
     }
-    @Test(priority = 2)
+    @Test
     public void verifyUpdatePlaceAPI(){
         JsonObject jsonObject = getJsonObjectFromJsonFile("sample");
         String jsonBody = getJsonBody(jsonObject);
@@ -31,7 +32,7 @@ public class SampleTest extends Base {
         Assert.assertEquals(updatePlaceResult.statusCode(),200,"update operation is failed");
      //   System.out.print(updatePlaceResult.asString());
     }
-    @Test(priority = 3)
+    @Test
     public void verifyDeletePlaceAPI(){
         String jsonBody=APIUtility.getJsonBody("place_id/fd/dy[0]",placeID);
         Response deletePlaceResult = responseFactory.deletePlace(jsonBody);
