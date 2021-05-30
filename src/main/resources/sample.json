@@ -1,0 +1,16 @@
+{
+  "location":  {
+    "lat": -90,
+    "lng": 95
+  },
+  "accuracy": 90,
+  "name": "Rahul Mahajan",
+  "phone_number": "(91) 983 893 3937",
+  "address": "13 B, side layout, cohen 09",
+  "types": [
+    "joker park",
+    "umbrella"
+  ],
+  "website": "http://rahulshettyacademy.com",
+  "language": "French-IN"
+}
