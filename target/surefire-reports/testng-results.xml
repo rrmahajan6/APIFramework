@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case started verifyAddPlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[All Steps of Test are completed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Ended verifyAddPlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[Test Case started verifyDeletePlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[All Steps of Test are completed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Ended verifyDeletePlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[Test Case started verifyGetPlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[All Steps of Test are completed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Ended verifyGetPlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[Test Case started verifyUpdatePlaceAPI]]>
+    </line>
+    <line>
+      <![CDATA[All Steps of Test are completed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Ended verifyUpdatePlaceAPI]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-02T05:39:51 IST" name="Suite1" finished-at="2022-11-02T05:39:54 IST" duration-ms="3326">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T05:39:51 IST" name="Nopackage" finished-at="2022-11-02T05:39:54 IST" duration-ms="3326">
+      <class name="org.SampleTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.SampleTest@12d3a4e9]" started-at="2022-11-02T05:39:51 IST" name="beforeSuite" finished-at="2022-11-02T05:39:51 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="verifyAddPlaceAPI()[pri:0, instance:org.SampleTest@12d3a4e9]" started-at="2022-11-02T05:39:51 IST" name="verifyAddPlaceAPI" finished-at="2022-11-02T05:39:53 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case started verifyAddPlaceAPI]]>
+            </line>
+            <line>
+              <![CDATA[All Steps of Test are completed]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Ended verifyAddPlaceAPI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddPlaceAPI -->
+        <test-method signature="verifyDeletePlaceAPI()[pri:0, instance:org.SampleTest@12d3a4e9]" started-at="2022-11-02T05:39:53 IST" name="verifyDeletePlaceAPI" finished-at="2022-11-02T05:39:54 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case started verifyDeletePlaceAPI]]>
+            </line>
+            <line>
+              <![CDATA[All Steps of Test are completed]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Ended verifyDeletePlaceAPI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeletePlaceAPI -->
+        <test-method signature="verifyGetPlaceAPI()[pri:0, instance:org.SampleTest@12d3a4e9]" started-at="2022-11-02T05:39:54 IST" name="verifyGetPlaceAPI" finished-at="2022-11-02T05:39:54 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case started verifyGetPlaceAPI]]>
+            </line>
+            <line>
+              <![CDATA[All Steps of Test are completed]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Ended verifyGetPlaceAPI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetPlaceAPI -->
+        <test-method signature="verifyUpdatePlaceAPI()[pri:0, instance:org.SampleTest@12d3a4e9]" started-at="2022-11-02T05:39:54 IST" name="verifyUpdatePlaceAPI" finished-at="2022-11-02T05:39:54 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case started verifyUpdatePlaceAPI]]>
+            </line>
+            <line>
+              <![CDATA[All Steps of Test are completed]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Ended verifyUpdatePlaceAPI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUpdatePlaceAPI -->
+      </class> <!-- org.SampleTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
