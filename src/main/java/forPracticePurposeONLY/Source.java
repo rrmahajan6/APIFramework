@@ -30,7 +30,7 @@ public class Source {
                 .assertThat()
                 .statusCode(200)
                 .body("scope", equalTo("APP"))
-                .header("Server", equalTo("Apache/2.4.18 (Ubuntu)"))
+//                .header("Server", equalTo("Apache/2.4.18 (Ubuntu)"))
                 .extract()
                 .as(ApiData.class);
         System.out.println("***************************************************************");
